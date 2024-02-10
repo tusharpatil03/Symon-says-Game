@@ -1,2 +1,0 @@
-# Desinger
-Tushar Patil
