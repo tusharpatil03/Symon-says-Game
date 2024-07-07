@@ -10,7 +10,7 @@ let p = document.querySelector("p");
 let scoreP = document.querySelector("#score");
 
 document.addEventListener("keypress", function(){
-    if(started == false){
+    if(!started){
         console.log("Game Started");
     };
     started = true;
