@@ -54,6 +54,7 @@ function checkAns(idx){
             
         }
     }else{
+        alert(`Your score: ${level}`);
         p.innerHTML = `Game over! Press any key to start game. your score was <b>${level}</b>`;
         scoreP.innerText = "";
         reset();
